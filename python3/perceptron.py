@@ -79,7 +79,7 @@ def get_training_dataset():
     input_vecs = [[1, 1], [0, 0], [1, 0], [0, 1]]
     # 期望的输出列表，注意要与输入一一对应
     # [1,1] -> 1, [0,0] -> 0, [1,0] -> 0, [0,1] -> 0
-    labels = [1, 0, 1, 1]
+    labels = [1, 0, 0, 0]
     return input_vecs, labels
 
 
